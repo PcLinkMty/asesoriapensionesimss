@@ -1,0 +1,87 @@
+# ============================================
+# ROBOTS.TXT - ASESORÍA EN PENSIONES
+# ============================================
+# Este archivo le dice a los motores de búsqueda (Google, Bing, etc.)
+# qué partes de tu sitio pueden rastrear y cuáles no.
+#
+# INSTRUCCIONES:
+# 1. Reemplaza "https://www.tudominio.com" con tu dominio real
+# 2. Sube este archivo a la raíz de tu sitio: tudominio.com/robots.txt
+# 3. Verifica que funcione visitando: tudominio.com/robots.txt
+# ============================================
+
+# ============================================
+# PERMITIR A TODOS LOS ROBOTS
+# ============================================
+User-agent: *
+Allow: /
+
+# ============================================
+# BLOQUEAR CARPETAS PRIVADAS (si las tienes)
+# ============================================
+# Descomenta estas líneas si tienes carpetas que NO quieres indexar
+
+# Disallow: /admin/
+# Disallow: /panel/
+# Disallow: /private/
+# Disallow: /temp/
+# Disallow: /cgi-bin/
+
+# ============================================
+# BLOQUEAR ARCHIVOS ESPECÍFICOS
+# ============================================
+# Archivos que no aportan valor SEO
+
+Disallow: /404.html
+Disallow: /error.html
+
+# ============================================
+# UBICACIÓN DEL SITEMAP
+# ============================================
+# IMPORTANTE: Cambia esta URL por la de tu dominio real
+
+Sitemap: https://asesoriapensionesimss.vercel.app/
+
+# ============================================
+# CONFIGURACIÓN ESPECÍFICA PARA GOOGLE
+# ============================================
+User-agent: Googlebot
+Allow: /
+
+# Permitir rastreo de imágenes
+User-agent: Googlebot-Image
+Allow: /
+
+# ============================================
+# CONFIGURACIÓN PARA BING
+# ============================================
+User-agent: Bingbot
+Allow: /
+
+# ============================================
+# CRAWL DELAY (opcional)
+# ============================================
+# Si tu servidor es lento, puedes agregar un delay
+# Esto le dice a los bots que esperen X segundos entre peticiones
+# Generalmente NO es necesario para sitios pequeños
+
+# Crawl-delay: 10
+
+# ============================================
+# NOTAS IMPORTANTES:
+# ============================================
+# 1. Este archivo debe estar en la RAÍZ de tu sitio
+#    Correcto: tudominio.com/robots.txt
+#    Incorrecto: tudominio.com/carpeta/robots.txt
+#
+# 2. Es sensible a mayúsculas/minúsculas
+#
+# 3. Verifica que funciona en:
+#    - Google Search Console > Configuración > robots.txt
+#    - O visitando directamente: tudominio.com/robots.txt
+#
+# 4. Los cambios pueden tardar días en aplicarse
+#
+# 5. Este archivo NO bloquea el acceso real a las páginas,
+#    solo le pide amablemente a los robots que no las rastreen
+# ============================================
