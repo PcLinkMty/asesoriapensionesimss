@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ============================================
+       SITEMAP PARA ASESORÍA EN PENSIONES
+       
+       INSTRUCCIONES IMPORTANTES:
+       1. Reemplaza "https://www.tudominio.com" con tu dominio real
+       2. Actualiza las fechas <lastmod> con la fecha de última modificación
+       3. Si agregas más páginas, cópialas siguiendo el mismo formato
+       4. Sube este archivo a la raíz de tu sitio: tudominio.com/sitemap.xml
+       5. Envía el sitemap en Google Search Console
+       
+       PRIORIDADES (priority):
+       - 1.0 = Más importante (homepage)
+       - 0.8 = Muy importante (servicios principales)
+       - 0.6 = Importante (páginas secundarias)
+       - 0.5 = Normal (blog, contenido adicional)
+       
+       FRECUENCIA DE CAMBIO (changefreq):
+       - always = Cambia cada vez que se accede
+       - hourly = Cada hora
+       - daily = Diariamente
+       - weekly = Semanalmente
+       - monthly = Mensualmente
+       - yearly = Anualmente
+       - never = Nunca cambia
+       ============================================ -->
+
+  <!-- PÁGINA PRINCIPAL -->
+  <url>
+    <loc>https://asesoriapensionesimss.vercel.app/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- SECCIÓN DE SERVICIOS -->
+  <url>
+    <loc>https://asesoriapensionesimss.vercel.app/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- SECCIÓN DE TESTIMONIOS -->
+  <url>
+    <loc>https://asesoriapensionesimss.vercel.app/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ============================================
+       PÁGINAS POR ESTADO (Si las creaste)
+       Descomenta estas secciones si tienes páginas específicas por estado
+       ============================================ -->
+  
+  <!--
+  <url>
+    <loc>https://www.tudominio.com/pension-imss-jalisco</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tudominio.com/pension-imss-nuevo-leon</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tudominio.com/pension-imss-puebla</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tudominio.com/pension-issste-cdmx</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+  <!-- ============================================
+       PÁGINAS DE BLOG (Si tienes blog)
+       Copia este formato para cada artículo
+       ============================================ -->
+  
+  <!--
+  <url>
+    <loc>https://www.tudominio.com/blog/como-tramitar-pension-imss</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tudominio.com/blog/requisitos-pension-issste</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tudominio.com/blog/correccion-curp-imss</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  -->
+
+  <!-- ============================================
+       PÁGINAS LEGALES (Si las tienes)
+       ============================================ -->
+  
+  <!--
+  <url>
+    <loc>https://www.tudominio.com/politica-privacidad</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.tudominio.com/terminos-condiciones</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  -->
+
+</urlset>
